@@ -16,7 +16,7 @@ p{
 header img{
     width: 50px;
     position: relative;
-    right: -89%;
+    right: -95%;
     border-radius: 50%;
 }
 header{
@@ -118,6 +118,7 @@ section:first-of-type button{
     position: relative;
     left: 25%;
     top: -46px;
+    margin-bottom: 5%;
 }
 section:first-of-type button:hover{
     background-color:#E4D1B8 ;
@@ -132,6 +133,7 @@ section:nth-of-type(2){
     background:  rgba(0,0,0,.4) url(../img/photo-1442512595331-e89e73853f31.jpeg) center/cover no-repeat;
     background-blend-mode:multiply;
     height: 90vh;
+    padding-top: 10%
 }
 section:nth-of-type(2) h2{
     font-size: 30px;
@@ -151,8 +153,8 @@ section:nth-of-type(2) form{
     font-family: 'Roboto', sans-serif;
     background-color: transparent;
     color: #E4D1B8;
-    padding: 5px 40px;
-    border: 1px solid #9F7654;
+    padding: 5px 50px;
+    border: 2px dotted #9F7654;
     border-radius: 20px;
 }
 .Submit:hover{
@@ -164,7 +166,7 @@ section:nth-of-type(2) form{
 /* -----------second section----------- */
 
 section:last-of-type{
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 10%;
 }
 .last img{
@@ -213,6 +215,6 @@ footer nav ul li a:hover{
     text-decoration: underline;
 }
 footer nav ul{
-    padding: 0 100px 30px 200px;
+    padding: 0 100px 30px 100px;
     margin: 0px;
 }
