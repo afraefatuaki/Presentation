@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&family=Roboto:wght@400;500;700&family=Shadows+Into+Light&display=swap');
+/* font-family: 'Medula One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive; */
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+h2{
+    color: #5C4335;
+}
+p{
+    color: #9F7654;
+}
+header img{
+    width: 50px;
+    position: relative;
+    right: -89%;
+    border-radius: 50%;
+}
+header{
+    background: rgba(0,0,0,.6) url(../img/background1.jpeg) center/cover no-repeat;
+    background-blend-mode:multiply;
+    height: 70vh;
+}
+header div{
+    text-align: center;
+    color: #E4D1B8;
+    padding-top: 10%
+}
+h1{
+    font-size: 70px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    margin: 0px;
+    font-family: 'Medula One', cursive;
+}
+header p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+header button{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    color: #E4D1B8;
+    padding: 10px 40px;
+    border: 1px solid #9F7654;
+    border-radius: 20px;
+}
+header button:hover{
+    background-color:#E4D1B8 ;
+    padding: 10px 60px;
+    border-radius: 90px;
+    color: #5C4335;
+    font-weight: 700;
+}
+/* -----------first section----------- */
+/* -------first div----- */
+main{
+    background-color: #F5F2EE;
+    margin: 0px;
+}
+section:first-of-type{
+    padding-top: 5%;
+}
+.First img{
+    width: 25%;
+    border-radius: 20px
+
+}
+.First{
+    display: flex;
+}
+h2:first-of-type{
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15%;
+    
+}
+.First p{
+    width: 600px;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-top: 1%;
+    line-height: 35px;
+}
+/* -------second div----- */
+.second img{
+    width: 30%;
+    border-radius: 20px;
+    padding-left: 15%;
+}
+.second{
+    display: flex;
+}
+h2:nth-of-type(2){
+    margin-top: 10%;
+    text-align: right;
+    padding-right: 17%;
+    
+}
+.second p{
+    width: 600px;
+    text-align: right;
+    padding-right: 17%;
+    line-height: 35px;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+section:first-of-type button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #9F7654;
+    color: #E4D1B8;
+    padding: 10px 40px;
+    border: 2px dotted #E4D1B8;
+    border-radius: 20px;
+    position: relative;
+    left: 25%;
+    top: -46px;
+}
+section:first-of-type button:hover{
+    background-color:#E4D1B8 ;
+    padding: 10px 60px;
+    border-radius: 90px;
+    color: #5C4335;
+    border: 2px dotted #9F7654;
+    font-weight: 700;
+}
+/* -----------second section----------- */
+section:nth-of-type(2){
+    background:  rgba(0,0,0,.4) url(../img/photo-1442512595331-e89e73853f31.jpeg) center/cover no-repeat;
+    background-blend-mode:multiply;
+    height: 90vh;
+}
+section:nth-of-type(2) h2{
+    font-size: 30px;
+    color: #F5F2EE;
+    padding-top: 20%;
+    padding-left: 15%;
+    
+}
+section:nth-of-type(2) form{
+    color: #F5F2EE;
+    padding-top: 1%;
+    padding-left: 15%;
+
+}
+.Submit{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    color: #E4D1B8;
+    padding: 5px 40px;
+    border: 1px solid #9F7654;
+    border-radius: 20px;
+}
+.Submit:hover{
+    background-color:#E4D1B8 ;
+    border-radius: 90px;
+    color: #5C4335;
+    font-weight: 700;
+}
+/* -----------second section----------- */
+
+section:last-of-type{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.last img{
+    width: 30%;
+    border-radius: 20px
+
+}
+.last{
+    display: flex;
+}
+h2:last-of-type{
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15%;
+    
+}
+.last p{
+    width: 600px;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-top: 1%;
+    line-height: 35px;
+}
+footer{
+    background-color: #E4D1B8;
+    
+}
+footer img{
+    width: 20px;
+    padding-left: 20px;
+}
+footer div{
+    padding: 20px;
+    text-align: center;
+}
+footer nav ul a{
+    text-decoration: none;
+    color:  #5C4335;
+    font-family: 'Open Sans', sans-serif;
+}
+footer nav ul li{
+    list-style: none;
+    line-height: 30px;
+}
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
+footer nav ul{
+    padding: 0 100px 30px 200px;
+    margin: 0px;
+}
